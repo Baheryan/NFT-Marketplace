@@ -1,0 +1,185 @@
+@media (min-width: 725px) {
+    .container {
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+
+    .header-container {
+        padding: 14px 50px;
+    }
+
+    .banner__container {
+        position: relative;
+        display: block;
+        padding-top: 80px;
+    }
+
+    .banner__text-container {
+        max-width: 48%;
+        gap: 18px;
+    }
+
+    .banner__heading {
+        font-size: 38px;
+        line-height: 125%;
+    }
+
+    .banner__paragraph {
+        line-height: 130%;
+    }
+
+    .banner__link-container {
+        margin-top: 22px;
+        width: 224px;
+    }
+
+    .banner__statistic-container {
+        margin-top: 25px;
+        max-width: 330px;
+    }
+
+    .banner__img {
+        position: absolute;
+        float: right;
+        width: 50%;
+        top: 60px;
+        right: 0;
+    }
+
+    .trends__container {
+        padding-top: 125px;
+    }
+
+    .trends__collections-container {
+        justify-content: space-between;
+    }
+
+    .trends__text-container {
+        text-align: unset;
+    }
+
+    .trends__collection {
+        gap: 18px;
+        width: 48%;
+    }
+
+    .trends__collection:nth-child(2) {
+        display: flex;
+    }
+
+    .collection__info-container {
+        gap: 11px;
+    }
+
+    .collection__link-number {
+        font-size: 22px;
+    }
+
+    .collection__author-avatar {
+        margin-right: 10px;
+    }
+
+    .creators__container {
+        position: relative;
+        padding-top: 78px;
+    }
+
+    .creators__text-container {
+        width: 50%;
+    }
+
+    .creators__sections-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 42px;
+        gap: unset;
+    }
+
+    .creators__section {
+        width: 41%;
+        margin-bottom: 31px;
+    }
+
+    .creators__section:nth-child(n+5) {
+        margin-bottom: 0;
+    }
+
+    .creators__section:nth-child(6) {
+        display: flex;
+    }
+
+    .creators__sale-text {
+        margin-right: 13px;
+    }
+
+    .creators__link {
+        position: absolute;
+        right: 77px;
+        top: 108px;
+        width: 245px;
+        margin-top: 0;
+    }
+
+    .categories__container {
+        padding-top: 87px;
+    }
+
+    .categories__cards-container {
+        margin-top: 44px;
+    }
+
+    .categories__card {
+        width: 21.5%;
+        margin-bottom: 32px;
+    }
+
+    .categories__card:nth-child(n+5) {
+        margin-bottom: 0;
+    }
+
+    .nfts__container {
+        position: relative;
+    }
+
+    .nfts__cards-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nfts__card {
+        margin-bottom: 0;
+        width: 48%;
+    }
+
+    .nfts__card:last-child {
+        display: none;
+    }
+
+    .nfts__card-img {
+        border-radius: 20px 20px 0 0;
+        height: 295px;
+        object-fit: cover;
+    }
+
+    .nfts__info-container {
+        padding: 20px 31px 29px 30px;
+    }
+
+    .nfts__price-number, .nfts__bid-number {
+        font-size: 16px;
+    }
+
+    .nfts__bid-text {
+        align-self: flex-end;
+        margin-bottom: 8px;
+    }
+
+    .nfts__link {
+        margin-top: 0;
+        position: absolute;
+        right: 73px;
+        top: 91px;
+        width: 183px;
+    }
+}
