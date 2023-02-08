@@ -516,6 +516,7 @@ body {
 
 .nfts__container {
     padding-top: 84px;
+    padding-bottom: 60px;
 }
 
 .nfts__text-container {
@@ -669,8 +670,80 @@ body {
     backdrop-filter: blur(5px);
     border-radius: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
     padding-top: 29px;
     padding-left: 31px;
-    padding-bottom: 27px;
+    padding-bottom: 25px;
     padding-right: 37px;
+}
+
+.highlite__container {
+    padding-top: 120px;
+    padding-bottom: 42px;
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+    position: relative;
+}
+
+.highlite__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+}
+
+.highlite__user-name {
+    color: #fff;
+}
+
+.highlite__timer-numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlite__timer-text {
+    font-size: 12px;
+    font-family: "Space Mono";
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.highlite__info-container, .highlite__user-container {
+    margin-bottom: 33px;
+}
+
+.timer__number-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.timer__number {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Space Mono";
+    margin-bottom: 6px;
+}
+
+.timer__number-text {
+    font-family: "Space Mono";
+    color: #fff;
+    font-size: 12px;
+}
+
+.timer__dots-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px 0 34px 10px;
+}
+
+.timer__dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #fff;
 }
