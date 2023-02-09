@@ -139,9 +139,14 @@
         margin-bottom: 0;
     }
 
+    .categories__card:nth-child(n+5) .categories__name {
+        padding-bottom: 46px;
+    }
+
     .nfts__container {
         position: relative;
         padding-bottom: 80px;
+        padding-top: 84px;
     }
 
     .nfts__cards-container {
@@ -183,5 +188,28 @@
         right: 73px;
         top: 91px;
         width: 183px;
+    }
+
+    .highlite__container {
+        padding-top: 360px;
+        padding-bottom: 127px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .highlite__info-container {
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    .highlite__timer-container {
+        margin: 0;
+        width: 229px;
+    }
+
+    .highlite__link {
+        position: absolute;
+        bottom: 60px;
+        width: 196px;
     }
 }

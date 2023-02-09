@@ -226,4 +226,13 @@
         right: 115px;
         top: 190px;
     }
+
+    .highlite__container {
+        padding-top: 358px;
+        padding-bottom: 136px;
+    }
+
+    .highlite__name {
+        font-size: 51px;
+    }
 }
