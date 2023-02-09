@@ -141,6 +141,7 @@
 
     .nfts__container {
         position: relative;
+        padding-bottom: 80px;
     }
 
     .nfts__cards-container {
