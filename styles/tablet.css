@@ -4,8 +4,9 @@
         padding-right: 72px;
     }
 
-    .header-container {
-        padding: 14px 50px;
+    .header__container {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .banner__container {
