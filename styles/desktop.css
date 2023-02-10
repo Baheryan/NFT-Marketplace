@@ -191,6 +191,10 @@
         width: 23%;
     }
 
+    .categories__card:nth-child(n+5) .categories__name {
+        padding-bottom: 27px;
+    }
+
     .categories__icon-container {
         padding-bottom: 70px;
         padding-top: 70px;
