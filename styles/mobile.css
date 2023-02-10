@@ -514,6 +514,10 @@ body {
     padding-top: 21px;
 }
 
+.categories__card:nth-child(n+7) .categories__name {
+    padding-bottom: 50px;
+}
+
 .nfts__container {
     padding-top: 84px;
     padding-bottom: 60px;
