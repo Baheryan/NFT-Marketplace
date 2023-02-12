@@ -1,0 +1,5 @@
+#Ignoring template files
+
+static/mobileTemplate.jpg
+static/tabletTemplate.jpg
+static/desktopTemplate.jpg
