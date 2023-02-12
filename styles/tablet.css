@@ -212,4 +212,28 @@
         bottom: 60px;
         width: 196px;
     }
+
+    .info__cards-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .info__card {
+        width: 30%;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 32px;
+        flex-direction: column;
+    }
+
+    .info__img {
+        width: 87%;
+    }
+
+    .info__card-text {
+        text-align: center;
+    }
 }

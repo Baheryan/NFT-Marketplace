@@ -751,3 +751,42 @@ body {
     border-radius: 20px;
     background-color: #fff;
 }
+
+.info__container {
+    padding-top: 41px;
+}
+
+.info__heading {
+    margin-bottom: 15px;
+}
+
+.info__cards-container {
+    margin-top: 43px;
+}
+
+.info__card {
+    display: flex;
+    border-radius: 20px;
+    background-color: #3b3b3b;
+    margin-bottom: 18px;
+    align-items: center;
+    padding: 20px;
+}
+
+.info__img {
+    width: 45%;
+}
+
+
+.info__card-heading {
+    margin-top: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.info__card-paragraph {
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+    line-height: 17px;
+}

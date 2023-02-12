@@ -239,4 +239,21 @@
     .highlite__name {
         font-size: 51px;
     }
+
+    .info__container {
+        padding-top: 83px;
+    }
+
+    .info__cards-container {
+        margin-top: 52px;
+    }
+
+    .info__card-heading {
+        font-size: 22px;
+    }
+
+    .info__card-paragraph {
+        font-size: 16px;
+        line-height: 22px;
+    }
 }
