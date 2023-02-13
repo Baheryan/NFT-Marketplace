@@ -248,6 +248,10 @@
         margin-top: 52px;
     }
 
+    .info__card {
+        width: 30%;
+    }
+
     .info__card-heading {
         font-size: 22px;
     }
