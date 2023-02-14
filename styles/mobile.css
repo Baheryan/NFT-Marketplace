@@ -790,3 +790,68 @@ body {
     margin: 0;
     line-height: 17px;
 }
+
+.subscribe__container {
+    padding-top: 29px;
+}
+
+.subscribe__content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe__img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.subscribe__heading {
+    line-height: 38px;
+    margin-bottom: 12px;
+}
+
+.subscribe__paragraph {
+    line-height: 21px;
+}
+
+.subscribe__text-container {
+    margin-bottom: 41px;
+}
+
+.subscribe__form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe__input {
+    padding: 14px 20px 14px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 17px;
+}
+
+.subscribe__input::placeholder {
+    color: #2B2B2B;
+    width: 100%;
+}
+
+.subscribe__button {
+    border: none;
+    border-radius: 20px;
+    height: 46px;
+    background-color: #A259FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subscribe__button-img {
+    margin-right: 12px;
+}
+
+.subscribe__button-text {
+    color: #fff;
+    font-weight: 600;
+}

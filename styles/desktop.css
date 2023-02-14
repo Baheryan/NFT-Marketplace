@@ -260,4 +260,33 @@
         font-size: 16px;
         line-height: 22px;
     }
+
+
+    .subscribe__container {
+        padding-top: 109px;
+    }
+
+    .subscribe__content-container {
+        padding-top: 60px;
+        padding-left: 58px;
+        padding-bottom: 23px;
+        padding-right: 25px;
+    }
+
+    .subscribe__text-container {
+        margin-bottom: 61px;
+    }
+
+    .subscribe__heading{
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+
+    .subscribe__paragraph {
+        line-height: 35px;
+    }
+
+    .subscribe__img {
+        width: 44%;
+    }
 }

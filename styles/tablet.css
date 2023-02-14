@@ -236,4 +236,29 @@
     .info__card-text {
         text-align: center;
     }
+
+    .subscribe__container {
+        padding-top: 80px;
+    }
+
+    .subscribe__content-container {
+        flex-direction: row;
+        background-color: #3b3b3b;
+        border-radius: 20px;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-top: 41px;
+        padding-right: 26px;
+        padding-bottom: 40px;
+        align-items: center;
+    }
+
+    .subscribe__img {
+        width: 47%;
+        margin-bottom: 0;
+    }
+
+    .subscribe__info-container {
+        width: 48%;
+    }
 }
