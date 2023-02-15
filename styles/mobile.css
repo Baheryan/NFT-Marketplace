@@ -851,6 +851,10 @@ body {
     margin-right: 12px;
 }
 
+.subscribe__button {
+    transition: transform 0.3s ease;
+}
+
 .subscribe__button:hover {
     transform: scale(0.95);
     transition: transform 0.3s ease;
