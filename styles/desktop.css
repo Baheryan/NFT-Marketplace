@@ -12,6 +12,12 @@
         font-size: 22px;
     }
 
+    .violet_button {
+        height: 100%;
+        width: 215px;
+        transition: transform 0.3s ease;
+    }
+
     .header__container {
         padding-top: 20px;
         padding-left: 50px;
@@ -303,12 +309,6 @@
     .subscribe__input {
         width: 200px;
         margin-bottom: 0;
-    }
-
-    .subscribe__button {
-        height: 100%;
-        width: 215px;
-        transition: transform 0.3s ease;
     }
 
     .subscribe__button:hover {
