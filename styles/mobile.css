@@ -44,6 +44,17 @@ body {
     width: 100%;
 }
 
+.violet_button {
+    align-items: center;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    height: 46px;
+    justify-content: center;
+}
+
 .header__container {
     display: flex;
     justify-content: space-between;
@@ -834,17 +845,6 @@ body {
 .subscribe__input::placeholder {
     color: #2B2B2B;
     width: 100%;
-}
-
-.subscribe__button {
-    border: none;
-    border-radius: 20px;
-    height: 46px;
-    background-color: #A259FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
 }
 
 .subscribe__button-img {
