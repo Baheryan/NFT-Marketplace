@@ -132,6 +132,7 @@ body {
     color: #ffff;
     font-weight: 600;
     cursor: pointer;
+    padding: 3px;
 }
 
 .header__menu li:last-child .header__link {
