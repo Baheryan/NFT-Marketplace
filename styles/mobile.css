@@ -8,6 +8,13 @@ body {
     padding-right: 30px;
 }
 
+.logo_text {
+    font-family: "Space Mono";
+    letter-spacing: 0.4px;
+    color: #ffff;
+    font-weight: 700;
+}
+
 .heading {
     font-size: 28px;
     font-weight: 600;
@@ -82,13 +89,6 @@ body {
 
 .header__logo-img {
     width: 25px;
-}
-
-.header__logo-text {
-    font-family: "Space Mono";
-    letter-spacing: 0.4px;
-    color: #ffff;
-    font-weight: 700;
 }
 
 .header__nav-container {
