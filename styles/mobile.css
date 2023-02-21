@@ -44,6 +44,13 @@ body {
     width: 100%;
 }
 
+.input {
+    padding: 14px 20px 14px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
 .violet_button {
     align-items: center;
     background-color: #A259FF;
@@ -836,10 +843,6 @@ body {
 }
 
 .subscribe__input {
-    padding: 14px 20px 14px 20px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
     margin-bottom: 17px;
 }
 
