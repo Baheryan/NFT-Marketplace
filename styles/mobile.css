@@ -869,3 +869,138 @@ body {
     transform: scale(0.95);
     transition: transform 0.3s ease;
 }
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #3B3B3B;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.footer__logo-container {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.footer__logo-text {
+    font-size: 21px;
+}
+
+.footer__logo-img {
+    margin-right: 12px;
+}
+
+.footer__info-text {
+    color: #CCCCCC;
+    line-height: 21px;
+    margin-bottom: 23px;
+    margin-top: 21px;
+}
+
+.footer__links-text {
+    color: #ccc;
+    display: inline-block;
+    margin-bottom: 17px;
+}
+
+.footer__links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 159px;
+}
+
+.footer__link {
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer__link:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+
+.footer__nav-container {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 31px;
+    padding: 0;
+}
+
+.footer__nav-heading {
+    color: #fff;
+    font-family: 'Space Mono';
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 26px;
+    margin-top: 0;
+}
+
+.footer__nav-container li:nth-child(-n+3) {
+    margin-bottom: 24px;
+}
+
+.footer__nav-link {
+    color: #ccc;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.footer__form-container {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__form-heading {
+    font-family: 'Space Mono';
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.footer__form-paragraph {
+    line-height: 22px;
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.footer__input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__input {
+    margin-bottom: 15px;
+}
+
+.footer__input::placeholder {
+    color: #2B2B2B;
+}
+
+.footer__button {
+    transition: transform 0.3s ease;
+}
+
+.footer__button:hover {
+    transform: scale(0.95);
+    transition: transform 0.3s ease;
+}
+
+.footer__button-img {
+    margin-right: 12px;
+}
+
+.footer__divider {
+    border: 1px solid #ccc;
+    margin-top: 30px;
+}
+
+.footer__copyright {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 20px;
+}
