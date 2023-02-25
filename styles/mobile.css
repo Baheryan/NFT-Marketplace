@@ -864,8 +864,3 @@ body {
     transform: scale(0.95);
     transition: transform 0.3s ease;
 }
-
-.subscribe__button-text {
-    color: #fff;
-    font-weight: 600;
-}
