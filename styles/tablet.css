@@ -262,4 +262,31 @@
     .subscribe__info-container {
         width: 48%;
     }
+
+    .footer__input-container {
+        flex-direction: row;
+        height: 60px;
+        background-color: #fff;
+        border-radius: 20px;
+        justify-content: space-between;
+        max-width: 420px;
+    }
+
+    .footer__input {
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .footer__button {
+        width: 87%;
+        height: 100%;
+    }
+
+    .footer__button-img {
+        display: none;
+    }
+
+    .footer__divider {
+        margin-top: 47px;
+    }
 }
