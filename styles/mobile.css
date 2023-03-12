@@ -135,7 +135,7 @@ body {
 }
 
 .header__menu li:hover {
-    scale: 0.90;
+    scale: 1.20;
     transition: scale 0.3s ease;
 }
 
